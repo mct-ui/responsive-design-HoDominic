@@ -5,12 +5,15 @@
 */
 
 .c-header__nav {
+  color: #202024;
 }
 
 @media (min-width: 992px) {
-    .c-header {
-    }
+  .c-header {
+    color: #202024;
+  }
 
-    .c-header__nav {
-    }
+  .c-header__nav {
+    color: #202024;
+  }
 }
