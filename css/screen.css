@@ -180,25 +180,6 @@ a:focus {
     line-height: 1.6;
   }
 }
-/*
-    Component: header
-    ---
-    Main header of the website
-*/
-
-.c-header__nav {
-  color: #202024;
-}
-
-@media (min-width: 992px) {
-  .c-header {
-    color: #202024;
-  }
-
-  .c-header__nav {
-    color: #202024;
-  }
-}
 
 /*------------------------------------*\
   #OBJECTS
@@ -367,7 +348,45 @@ a:focus {
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
+/*
+    Component: header
+    ---
+    Main header of the website
+*/
 
+.c-header__nav {
+  color: #202024;
+}
+
+@media (min-width: 992px) {
+  .c-header {
+    color: #202024;
+  }
+
+  .c-header__nav {
+    color: #202024;
+  }
+}
+
+/*
+    Component: Logo
+    ---
+    Website main logo
+*/
+
+.c-logo {
+  height: 32px;
+}
+
+.c-logo__symbol {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .c-logo {
+    height: 40px;
+  }
+}
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
