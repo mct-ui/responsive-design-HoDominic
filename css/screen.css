@@ -177,6 +177,7 @@ a:focus {
 @media (min-width: 768px) {
   html {
     font-size: 20px;
+    line-height: 1.6;
   }
 }
 /*
